@@ -14,6 +14,9 @@
 		4E9E66CE1D2F734D00F0AE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9E66CC1D2F734D00F0AE6E /* LaunchScreen.storyboard */; };
 		4E9E66D91D2F734D00F0AE6E /* Project5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E66D81D2F734D00F0AE6E /* Project5Tests.swift */; };
 		4E9E66E41D2F734D00F0AE6E /* Project5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E66E31D2F734D00F0AE6E /* Project5UITests.swift */; };
+		4E9E66F21D2F7A9E00F0AE6E /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E66F11D2F7A9E00F0AE6E /* InterestCollectionViewCell.swift */; };
+		4E9E66F41D2F7AB800F0AE6E /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E66F31D2F7AB800F0AE6E /* Interest.swift */; };
+		4E9E66F81D2FA57000F0AE6E /* LinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E66F71D2FA57000F0AE6E /* LinLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		4E9E66C01D2F734D00F0AE6E /* Project5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9E66C31D2F734D00F0AE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E9E66C51D2F734D00F0AE6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E9E66C51D2F734D00F0AE6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		4E9E66C81D2F734D00F0AE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E9E66CA1D2F734D00F0AE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9E66CD1D2F734D00F0AE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		4E9E66DF1D2F734D00F0AE6E /* Project5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9E66E31D2F734D00F0AE6E /* Project5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5UITests.swift; sourceTree = "<group>"; };
 		4E9E66E51D2F734D00F0AE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9E66F11D2F7A9E00F0AE6E /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E9E66F31D2F7AB800F0AE6E /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		4E9E66F71D2FA57000F0AE6E /* LinLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				4E9E66C31D2F734D00F0AE6E /* AppDelegate.swift */,
 				4E9E66C51D2F734D00F0AE6E /* ViewController.swift */,
+				4E9E66F71D2FA57000F0AE6E /* LinLayout.swift */,
 				4E9E66C71D2F734D00F0AE6E /* Main.storyboard */,
+				4E9E66F11D2F7A9E00F0AE6E /* InterestCollectionViewCell.swift */,
+				4E9E66F31D2F7AB800F0AE6E /* Interest.swift */,
 				4E9E66CA1D2F734D00F0AE6E /* Assets.xcassets */,
 				4E9E66CC1D2F734D00F0AE6E /* LaunchScreen.storyboard */,
 				4E9E66CF1D2F734D00F0AE6E /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9E66F21D2F7A9E00F0AE6E /* InterestCollectionViewCell.swift in Sources */,
 				4E9E66C61D2F734D00F0AE6E /* ViewController.swift in Sources */,
 				4E9E66C41D2F734D00F0AE6E /* AppDelegate.swift in Sources */,
+				4E9E66F81D2FA57000F0AE6E /* LinLayout.swift in Sources */,
+				4E9E66F41D2F7AB800F0AE6E /* Interest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
